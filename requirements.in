@@ -1,0 +1,7 @@
+flake8
+black
+prefect
+prefect_gcp
+prefect_dbt
+hdx-python-api==6.0.9
+google-cloud-storage
