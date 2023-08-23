@@ -384,7 +384,7 @@ pytz==2023.3
     #   prefect
 pytzdata==2020.1
     # via pendulum
-pywin32==306
+# pywin32==306 --- Cannot install in a Linux container
     # via docker
 pyyaml==6.0.1
     # via
