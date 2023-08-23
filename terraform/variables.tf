@@ -17,13 +17,18 @@ variable "gcp_credentials" {
 variable "region" {
   type = string
   description = "Region for GCP resources"
-  default = "europe-west6"
+  default = "us-east4"
 }
 
 variable "storage_class" {
   type = string
   description = "Storage class type for bucket."
   default = "STANDARD"
+}
+
+variable "dataset_name" {
+  type = string
+  description = "BigQuery dataset to create"
 }
 
 

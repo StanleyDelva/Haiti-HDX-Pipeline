@@ -30,6 +30,13 @@ resource "google_storage_bucket" "haiti_data_lake" {
   force_destroy = true
 }
 
+# Bigquery dataset
+resource "google_bigquery_dataset" "haiti_idp_dataset" {
+  dataset_id = var.dataset_name
+  project    = var.project_id
+  location   = var.region
+}
+
 # Artifact registry for containers
 resource "google_artifact_registry_repository" "haiti-container-registry" {
   location      = var.region

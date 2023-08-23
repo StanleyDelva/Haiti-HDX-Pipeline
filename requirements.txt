@@ -49,5 +49,8 @@ typing-extensions==4.7.1
 virtualenv==20.24.3
     # via pre-commit
 
+hdx-python-api==6.0.8
+    # via hdx
+
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools

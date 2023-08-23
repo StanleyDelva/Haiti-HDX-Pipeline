@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: haiti_idp_dataset
+    tables:
+      - name: Asylum_applications_by_asylum_seekers_originating_from_Haiti
+      - name: Asylum_applications_by_asylum_seekers_residing_in_Haiti
+      - name: Asylum_decisions_taken_on_asylum_claims_of_asylum_seekers_originating_from_Haiti
+      - name: Asylum_decisions_taken_on_asylum_claims_of_asylum_seekers_residing_in_Haiti
+      - name: Demographics_and_locations_of_forcibly_displaced_and_stateless_persons_residing_in_Haiti
+      - name: Demographics_and_locations_of_forcibly_displaced_persons_originating_from_Haiti
+      - name: End-year_stock_population_figures_for_forcibly_displaced_and_stateless_persons_residing_in_Haiti
+      - name: End-year_stock_population_figures_for_forcibly_displaced_persons_originating_from_Haiti
+      - name: Solutions_for_refugees_and_IDPs_originating_from_Haiti
+      - name: Solutions_for_refugees_and_IDPs_residing_in_Haiti
