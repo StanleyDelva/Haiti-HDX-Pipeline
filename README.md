@@ -5,7 +5,7 @@ Data pipeline orchestrated with Prefect, using data from HDX API
 The following tools were used to achieve this project:
 
 - Containerization: Docker
-- Data: Humanitarian Data Exchange API ((Link))[https://hdx-python-api.readthedocs.io/en/latest/]
+- Data: Humanitarian Data Exchange API [(Link)](https://hdx-python-api.readthedocs.io/en/latest/)
 - IaC: Terraform
 - Data Lake: Google Cloud Storage
 - Data Warehouse: Google BigQuery
@@ -25,7 +25,7 @@ The following tools were used to achieve this project:
    - provide necessary variable values in a `terraform.tfvars` file (create in terraform folder)
      -   project_id = "haiti-insights"
      -   gcp_credentials = "Path to JSON file"
-     -   region = "Whichever region you want your project to reside in (potential codes)[https://cloud.google.com/compute/docs/regions-zones]"
+     -   region = "Whichever region you want your project to reside in. [Potential codes](https://cloud.google.com/compute/docs/regions-zones)
      -   bucket_name ="haiti-tracking-data"
      -   storage_class = "STANDARD"
      -   registry_id="haiti-tracking-docker"
@@ -33,7 +33,7 @@ The following tools were used to achieve this project:
    - configure necessary Prefect blocks (GCP Credentials, GCS Bucket)
    - `cd` into prefect folder and run `python get_haiti_data.py`
 
-**Note: Docker is used to run a Prefect deployment fully in the cloud with Cloud Run, the `GCP Cloud Run Job` Prefect block, and the `GitHub` Prefect block. Then, a Prefect agent is ran on Google Compute Engine. (More info here)[https://medium.com/@ryanelamb/a-data-engineering-project-with-prefect-docker-terraform-google-cloudrun-bigquery-and-streamlit-3fc6e08b9398]**
+**Note: Docker is used to run a Prefect deployment fully in the cloud with Cloud Run, the `GCP Cloud Run Job` Prefect block, and the `GitHub` Prefect block. Then, a Prefect agent is ran on Google Compute Engine. [More info here](https://medium.com/@ryanelamb/a-data-engineering-project-with-prefect-docker-terraform-google-cloudrun-bigquery-and-streamlit-3fc6e08b9398)**
 
 
 ### Pipeline Diagram
