@@ -2,7 +2,7 @@
 Data pipeline orchestrated with Prefect, using data from HDX API
 
 ### Tableau Visualisation:
-![](misc/tableau-dashboard.png)
+![](misc/Tableau-dashboard-public.png)
 
 ### Project Components:
 The following tools were used to achieve this project:
