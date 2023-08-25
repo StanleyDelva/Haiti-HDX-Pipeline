@@ -1,6 +1,9 @@
 # HDX Data Pipeline - Insights on forcibly displaced populations and stateless persons in Haiti
 Data pipeline orchestrated with Prefect, using data from HDX API
 
+### Tableau Visualisation:
+![](misc/tableau-dashboard.png)
+
 ### Project Components:
 The following tools were used to achieve this project:
 
@@ -12,6 +15,9 @@ The following tools were used to achieve this project:
 - Transformations: DBT
 - Orchestration: Prefect
 - Data visualisation: Tableau
+
+### Pipeline Diagram
+![](misc/pipeline-architecture.png)
 
 ### To run code locally:
    - Type in terminal: `pip install -r requirements.txt`
@@ -34,10 +40,3 @@ The following tools were used to achieve this project:
    - `cd` into prefect folder and run `python get_haiti_data.py`
 
 **Note: Docker is used to run a Prefect deployment fully in the cloud with Cloud Run, the `GCP Cloud Run Job` Prefect block, and the `GitHub` Prefect block. Then, a Prefect agent is ran on Google Compute Engine. [More info here](https://medium.com/@ryanelamb/a-data-engineering-project-with-prefect-docker-terraform-google-cloudrun-bigquery-and-streamlit-3fc6e08b9398)**
-
-
-### Pipeline Diagram
-![](misc/pipeline-architecture.png)
-
-### Tableau Visualisation:
-![](misc/tableau-dashboard.png)
