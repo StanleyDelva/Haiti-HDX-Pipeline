@@ -40,3 +40,4 @@ The following tools were used to achieve this project:
 ![](misc/pipeline-architecture.png)
 
 ### Tableau Visualisation (To be completed):
+![](misc/tableau-dashboard.png)
