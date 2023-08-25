@@ -11,7 +11,7 @@ The following tools were used to achieve this project:
 - Data Warehouse: Google BigQuery
 - Transformations: DBT
 - Orchestration: Prefect
-- Data visualisation: Tableu **Work in progress**
+- Data visualisation: Tableau
 
 ### To run code locally:
    - Type in terminal: `pip install -r requirements.txt`
@@ -39,5 +39,5 @@ The following tools were used to achieve this project:
 ### Pipeline Diagram
 ![](misc/pipeline-architecture.png)
 
-### Tableau Visualisation (To be completed):
+### Tableau Visualisation:
 ![](misc/tableau-dashboard.png)
